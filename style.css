@@ -42,6 +42,7 @@ main {
   grid-template-columns: repeat(3, 1fr);
   border-radius: 8px;
   overflow: hidden;
+  margin-top: auto;
 }
 
 h2 {
@@ -127,6 +128,7 @@ footer a {
   text-decoration: none;
   color: var(--dark-cyan);
   font-weight: bold;
+  transition: 200ms ease-in-out;
 }
 
 footer a:active {
